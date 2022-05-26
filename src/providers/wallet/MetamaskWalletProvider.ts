@@ -1,7 +1,7 @@
 import { Message, SignedMessage, Signature, KeyInfo } from "../Types";
 import { MetamaskSigner } from "../../signers/MetamaskSigner";
 import { BaseWalletProvider } from "./BaseWalletProvider";
-import { FilecoinSnapApi } from "@nodefactory/filsnap-types";
+import { FilecoinSnapApi } from "@chainsafe/filsnap-types";
 import { LotusClient } from "../..";
 import { WalletProviderInterface } from "../ProviderInterfaces";
 
