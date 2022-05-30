@@ -1,6 +1,6 @@
-import { MetamaskFilecoinSnap } from "@nodefactory/filsnap-adapter/build/snap";
-import { enableFilecoinSnap } from "@nodefactory/filsnap-adapter";
-import { FilecoinSnapApi } from "@nodefactory/filsnap-types";
+import { MetamaskFilecoinSnap } from "@chainsafe/filsnap-adapter/build/snap";
+import { enableFilecoinSnap } from "@chainsafe/filsnap-adapter";
+import { FilecoinSnapApi } from "@chainsafe/filsnap-types";
 import { JsonRpcConnectionOptions } from "../connectors/HttpJsonRpcConnector";
 
 export class MetamaskSnapHelper {

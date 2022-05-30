@@ -2,9 +2,9 @@ import * as filecoin_signer from '@zondax/filecoin-signing-tools';
 import { Message, SignedMessage } from '../providers/Types';
 import { Signer } from './Signer';
 import { JsonRpcConnectionOptions } from '../connectors/HttpJsonRpcConnector';
-import { MetamaskFilecoinSnap } from '@nodefactory/filsnap-adapter/build/snap';
-import { FilecoinSnapApi } from '@nodefactory/filsnap-types';
-import { enableFilecoinSnap } from '@nodefactory/filsnap-adapter';
+import { MetamaskFilecoinSnap } from '@chainsafe/filsnap-adapter/build/snap';
+import { FilecoinSnapApi } from '@chainsafe/filsnap-types';
+import { enableFilecoinSnap } from '@chainsafe/filsnap-adapter';
 
 export class MetamaskSigner implements Signer {
 

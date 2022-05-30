@@ -1,5 +1,9 @@
 # filecoin.js
 
+## Note
+
+This is a maintenance fork from [filecoin-shipyard/filecoin.js](https://github.com/filecoin-shipyard/filecoin.js). And it will be maintained until upstream accepts our PR with the required updates. We will then deprecate this repo and switch back to using the upstream package.
+
 ## Publishing this package
 
 Before publishing you will probably need to perform an `npm run build` and `npm run bundle`, otherwise the package will get published without its built files.
